@@ -1,0 +1,26 @@
+:root {
+  /*Primary*/
+  --clr-primary-400: hsl(193, 38%, 86%);
+  --clr-primary-500: hsl(150, 100%, 66%);
+
+  /* Neutral */
+  --clr-neutral-400: hsl(217, 19%, 38%);
+  --clr-neutral-500: hsl(217, 19%, 24%);
+  --clr-neutral-600: hsl(218, 23%, 16%);
+
+  --fs-400: 28px;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--clr-neutral-600);
+  font-family: "Manrope", sans-serif;
+  font-size: var(--fs-400);
+  color: var(--clr-primary-400);
+  margin: 0;
+  padding: 0;
+}
