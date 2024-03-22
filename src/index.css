@@ -44,7 +44,7 @@ img {
   text-align: center;
 }
 
-.quote-counter {
+.quote-title {
   color: var(--clr-primary-500);
   font-weight: 400;
   font-size: 14px;
@@ -72,4 +72,8 @@ img {
 
 .quote-card-button:hover {
   box-shadow: 0px 0px 30px var(--clr-primary-500);
+}
+
+.error-message {
+  color: lightcoral;
 }
