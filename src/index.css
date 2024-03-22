@@ -18,9 +18,58 @@
 
 body {
   background-color: var(--clr-neutral-600);
+  color: var(--clr-primary-400);
   font-family: "Manrope", sans-serif;
   font-size: var(--fs-400);
-  color: var(--clr-primary-400);
   margin: 0;
-  padding: 0;
+
+  /* center card */
+  display: grid;
+  min-height: 100svh;
+  place-items: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Quote Card */
+.quote-card {
+  position: relative;
+  background-color: var(--clr-neutral-500);
+  max-width: 400px;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.quote-counter {
+  color: var(--clr-primary-500);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 4px;
+}
+
+.quote-card-divider {
+  margin: 1.5rem 0;
+}
+
+/* Quote card Button */
+.quote-card-button {
+  background-color: var(--clr-primary-500);
+  border-radius: 100%;
+  border: none;
+  bottom: -3em;
+  cursor: pointer;
+  left: 50%;
+  outline: none;
+  padding: 1.5em;
+  position: absolute;
+  transform: translate(-50%, -10%);
+  transition: all 0.2s;
+}
+
+.quote-card-button:hover {
+  box-shadow: 0px 0px 30px var(--clr-primary-500);
 }
