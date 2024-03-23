@@ -1,4 +1,3 @@
-import "./App.css";
 import QuoteCard from "./components/QuoteCard";
 
 function App() {
